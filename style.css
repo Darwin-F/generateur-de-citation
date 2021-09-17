@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,113,171,1) 52%, rgba(0,212,255,1) 100%);   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#bloc {
+    
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+#citation {
+    height: 100%;
+    padding: 10px;
+    background-color: azure;
+    color : black;
+}
+
+#texte{
+    font-family: 'Satisfy', curve;
+    font-size: 2em;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+#texte:before {
+    content: open-quote;
+}
+
+#texte:after {
+    content: close-quote;
+}
+
+#auteur {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#nouveau {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    cursor: pointer;
+}
